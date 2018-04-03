@@ -15,13 +15,10 @@ def secret():
     return string
 
 
-@my_app.route("ultra_test")
+@my_app.route("/ultra_test")
 def ultra_test():
     string = "Nice job amigo, you ultra passed the test!"
     return string
-
-
-
 
 
 
